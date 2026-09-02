@@ -15,7 +15,7 @@ Generated parts:
 * Full Assembly
 
 The project also includes validation and analysis tools for comparing generated geometry against the supplied reference models.
-
+![alt text](image.png)
 ---
 
 # Project Structure
