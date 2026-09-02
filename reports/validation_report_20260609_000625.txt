@@ -1,0 +1,225 @@
+
+
+======================================================================
+RETROPAD CAD VALIDATION REPORT
+======================================================================
+
+Generated : 2026-06-09 00:06:26.017327
+Report File : G:\Projects\cad_assignment_retropad\reports\validation_report_20260609_000625.txt
+
+
+======================================================================
+BOTTOM_SHELL
+======================================================================
+
+Reference STL : G:\Projects\cad_assignment_retropad\reference\bottom_shell.stl
+Generated STL : G:\Projects\cad_assignment_retropad\generated\bottom_shell.stl
+
+Loading meshes...
+
+VOLUME
+----------------------------------------------------------------------
+Reference Volume : 27602.849
+Generated Volume : 27696.409
+Volume Difference: 93.560
+Volume Match     : 99.66%
+
+SURFACE AREA
+----------------------------------------------------------------------
+Reference Area   : 26016.992
+Generated Area   : 26076.370
+Area Difference  : 59.379
+Surface Match    : 99.77%
+
+BOUNDING BOX
+----------------------------------------------------------------------
+
+Reference
+Width  : 135.000
+Length : 53.000
+Height : 19.424
+
+Generated
+Width  : 135.000
+Length : 53.000
+Height : 19.500
+
+Difference
+Width  : 0.000
+Length : 0.000
+Height : 0.076
+
+BBox Match       : 99.87%
+
+----------------------------------------------------------------------
+
+OVERALL MATCH    : 99.76%
+STATUS           : BEST
+
+
+======================================================================
+TOP_SHELL
+======================================================================
+
+Reference STL : G:\Projects\cad_assignment_retropad\reference\top_shell.stl
+Generated STL : G:\Projects\cad_assignment_retropad\generated\top_shell.stl
+
+Loading meshes...
+
+VOLUME
+----------------------------------------------------------------------
+Reference Volume : 24154.488
+Generated Volume : 29536.316
+Volume Difference: 5381.829
+Volume Match     : 77.72%
+
+SURFACE AREA
+----------------------------------------------------------------------
+Reference Area   : 26087.690
+Generated Area   : 25981.515
+Area Difference  : 106.176
+Surface Match    : 99.59%
+
+BOUNDING BOX
+----------------------------------------------------------------------
+
+Reference
+Width  : 135.000
+Length : 53.000
+Height : 14.824
+
+Generated
+Width  : 135.000
+Length : 53.000
+Height : 14.500
+
+Difference
+Width  : 0.000
+Length : 0.000
+Height : 0.324
+
+BBox Match       : 99.27%
+
+----------------------------------------------------------------------
+
+OVERALL MATCH    : 90.75%
+STATUS           : EXCELLENT
+
+
+======================================================================
+BUTTON
+======================================================================
+
+Reference STL : G:\Projects\cad_assignment_retropad\reference\button.stl
+Generated STL : G:\Projects\cad_assignment_retropad\generated\button.stl
+
+Loading meshes...
+
+VOLUME
+----------------------------------------------------------------------
+Reference Volume : 1150.783
+Generated Volume : 1247.135
+Volume Difference: 96.352
+Volume Match     : 91.63%
+
+SURFACE AREA
+----------------------------------------------------------------------
+Reference Area   : 661.256
+Generated Area   : 767.177
+Area Difference  : 105.921
+Surface Match    : 83.98%
+
+BOUNDING BOX
+----------------------------------------------------------------------
+
+Reference
+Width  : 11.832
+Length : 11.832
+Height : 15.474
+
+Generated
+Width  : 12.000
+Length : 12.000
+Height : 15.474
+
+Difference
+Width  : 0.168
+Length : 0.168
+Height : 0.000
+
+BBox Match       : 99.05%
+
+----------------------------------------------------------------------
+
+OVERALL MATCH    : 91.56%
+STATUS           : EXCELLENT
+
+
+======================================================================
+D_PAD
+======================================================================
+
+Reference STL : G:\Projects\cad_assignment_retropad\reference\d_pad.stl
+Generated STL : G:\Projects\cad_assignment_retropad\generated\d_pad.stl
+
+Loading meshes...
+
+VOLUME
+----------------------------------------------------------------------
+Reference Volume : 7947.733
+Generated Volume : 7672.021
+Volume Difference: 275.712
+Volume Match     : 96.53%
+
+SURFACE AREA
+----------------------------------------------------------------------
+Reference Area   : 3016.495
+Generated Area   : 2990.467
+Area Difference  : 26.028
+Surface Match    : 99.14%
+
+BOUNDING BOX
+----------------------------------------------------------------------
+
+Reference
+Width  : 32.058
+Length : 28.415
+Height : 15.474
+
+Generated
+Width  : 31.999
+Length : 27.997
+Height : 15.600
+
+Difference
+Width  : 0.059
+Length : 0.418
+Height : 0.126
+
+BBox Match       : 99.18%
+
+----------------------------------------------------------------------
+
+OVERALL MATCH    : 98.11%
+STATUS           : BEST
+
+
+======================================================================
+PROJECT SUMMARY
+======================================================================
+
+PROJECT MATCH    : 95.04%
+STATUS           : BEST
+
+PART SCORES
+----------------------------------------------------------------------
+bottom_shell      99.76%   BEST
+top_shell         90.75%   EXCELLENT
+button            91.56%   EXCELLENT
+d_pad             98.11%   BEST
+
+
+======================================================================
+REPORT SAVED
+======================================================================
+G:\Projects\cad_assignment_retropad\reports\validation_report_20260609_000625.txt

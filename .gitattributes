@@ -1,0 +1,7 @@
+# Automatically normalize text files
+* text=auto
+
+# CAD files - do not modify line endings
+*.step binary
+*.stp binary
+*.stl binary

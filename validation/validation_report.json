@@ -1,0 +1,41 @@
+{
+  "method": "Exact triangle-set identity check. Identical STL meshes imply zero symmetric difference.",
+  "results": [
+    {
+      "part": "bottom_shell",
+      "reference_file": "reference\\bottom_shell.stl",
+      "generated_file": "generated\\bottom_shell.stl",
+      "reference_volume": 27602.84893467081,
+      "generated_volume": 28190.30926648551,
+      "symmetric_difference_volume": NaN,
+      "result": "FAIL"
+    },
+    {
+      "part": "button",
+      "reference_file": "reference\\button.stl",
+      "generated_file": "generated\\button.stl",
+      "reference_volume": 1150.7828804095577,
+      "generated_volume": 1150.7828804095577,
+      "symmetric_difference_volume": 0.0,
+      "result": "PASS"
+    },
+    {
+      "part": "d_pad",
+      "reference_file": "reference\\d_pad.stl",
+      "generated_file": "generated\\d_pad.stl",
+      "reference_volume": 7947.732925765204,
+      "generated_volume": 7947.732925765204,
+      "symmetric_difference_volume": 0.0,
+      "result": "PASS"
+    },
+    {
+      "part": "top_shell",
+      "reference_file": "reference\\top_shell.stl",
+      "generated_file": "generated\\top_shell.stl",
+      "reference_volume": 24154.48750503069,
+      "generated_volume": 24154.48750503069,
+      "symmetric_difference_volume": 0.0,
+      "result": "PASS"
+    }
+  ]
+}
